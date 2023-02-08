@@ -1,0 +1,68 @@
+.cabecalho {
+    background-color: rgb(73, 54, 18);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    max-width: 1440px;
+    margin: 0px 0px 40px 0px;
+}
+
+.cabecalho .logo {
+    width: 70px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center; 
+    height: 100%;
+}
+
+.cabecalho nav a {
+    font-family: 'Bebas Neue', cursive;    
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: rgb(58, 43, 16);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+}
+
+.container .imagem-titulo {
+    max-width: 350px;
+   
+}
+
+.container .descricao {
+    font-family: 'Arvo', serif;
+    color: #ffffff;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.imagem-capa {
+    display: flex;
+    height: 480px;
+
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    max-width: 1440px;
+}
